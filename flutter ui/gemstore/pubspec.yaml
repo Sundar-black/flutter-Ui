@@ -1,0 +1,25 @@
+name: gemstore_ui
+description: A clean Flutter UI (Gemstore) demo.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/banner.png
+    - assets/images/prod1.png
+    - assets/images/prod2.png
+    - assets/images/prod3.png
